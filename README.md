@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Adarsh Pandey!
 
 <div align="center">
-  <h3>🚀 Full-Stack Developer | 🎨 UI/UX Designer | 💡 Tech Innovator</h3>
+  <h3>🚀 Full-Stack Developer | 🎨 Creative Designer | 💡 Tech Innovator</h3>
   
   <p>
     <a href="https://www.linkedin.com/in/beadarshh" target="_blank">
@@ -25,11 +25,11 @@
 
 ## ✨ About Me
 
-I'm a passionate **full-stack developer** and **tech innovator** currently working as a **Technical Fellow at Drone Federation India**, building digital infrastructure for India's drone ecosystem. With hands-on experience in software development, API design, system architecture, and UI/UX design, I thrive on solving complex problems through elegant code.
+I'm a passionate **full-stack developer** and **tech innovator** currently working as a **Software Fellow at Drone Federation India**, building digital infrastructure for India's drone ecosystem. With hands-on experience in software development, API design, system architecture, and UI/UX design, I thrive on solving complex problems through elegant code.
 
-🎓 **B.Tech in Computer Science & Engineering** (87.35/100) from Guru Tegh Bahadur 4th Centenary Engineering College
+🎓 **B.Tech in Computer Science & Engineering** (9.05/10) from Guru Tegh Bahadur 4th Centenary Engineering College, affiliated by GGSIPU
 
-📍 **Location:** East Delhi, Delhi, India | 📱 **Phone:** +91-9555995196
+📍 **Location:** Delhi, India | 📱 **Phone:** +91-9555995196
 
 ### 🎯 What I Do
 
@@ -58,6 +58,7 @@ I'm a passionate **full-stack developer** and **tech innovator** currently worki
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 
@@ -259,16 +260,6 @@ Comprehensive Excel-based dashboard for global population trends:
 
 ---
 
-## 📚 Education
-
-**B.Tech. Computer Science & Engineering** | Guru Tegh Bahadur 4th Centenary Engineering College  
-*2022 - 2026 | CGPA: 8.74/10 (87.35/100)*
-
-**Data Science Workshop & Certification** | IIT Delhi  
-*40-hour intensive program on Machine Learning & Predictive Analytics*
-
----
-
 ## 🌐 Connect With Me
 
 <div align="center">
@@ -286,10 +277,8 @@ Comprehensive Excel-based dashboard for global population trends:
     <img src="https://komarev.com/ghpvc/?username=beadarshh&color=blueviolet" alt="Profile Views"/>
   </p>
 
-  <hr>
-
-  <p><b>📱 +91-9555995196</b> • <b>📍 East Delhi, Delhi, India</b></p>
+  <p><b>📱 +91-9555995196</b> • <b>📍 Delhi, India</b></p>
   
-  <p><i>Made with ❤️ by Adarsh Pandey</i></p>
+  <p><i>- Adarsh Pandey</i></p>
 
 </div>
