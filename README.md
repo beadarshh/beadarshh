@@ -77,11 +77,11 @@ I'm a passionate **full-stack developer** and **tech innovator** currently worki
 **June 2025 - Present**
 
 Leading the development of digital infrastructure for India's drone ecosystem with focus on:
-- Designed and extensively worked on a unified API framework enabling secure and compliant drone operation functionalities
-- Built scalable web applications: **DroneFed website**, **NIDAR platform**, research portal using React.js, Node.js, Django, PostgreSQL
-- Integrated RESTful APIs for seamless communication between platforms ensuring interoperability
-- Automated workflows and internal tools using Google Apps Script, improving operational efficiency
-- Utilized Selenium for automated testing and performance validation across platforms
+- Designed unified API framework enabling secure drone operations
+- Built scalable web apps (React, Django, PostgreSQL) for internal & public use
+- Integrated RESTful APIs ensuring interoperability
+- Automated workflows with Google Apps Script
+- Implemented Selenium-based testing for performance validation
 
 **Key Skills:** API Design • System Architecture • React.js • Node.js • PostgreSQL • Docker • Real-time Systems
 
@@ -91,9 +91,9 @@ Leading the development of digital infrastructure for India's drone ecosystem wi
 **February 2025 - June 2025**
 
 Designed clean, modern interfaces for fashion e-commerce platform:
-- Created high-fidelity screens and reusable UI components in Figma
-- Developed responsive designs ensuring optimal experience across devices
-- Enhanced product discovery with intuitive layouts and filtering systems
+- Designed high-fidelity e-commerce interfaces in Figma
+- Built responsive layouts for seamless user experience
+- Created reusable components and maintained design consistency
 - Maintained brand consistency and visual hierarchy
 
 **Key Skills:** Figma • UI Design • Responsive Design • Design Systems
@@ -104,11 +104,9 @@ Designed clean, modern interfaces for fashion e-commerce platform:
 **July 2024 - October 2024**
 
 Developed financial web applications and led intern team:
-- Built core modules for fintech platforms with focus on performance and user experience
-- Designed and implemented responsive UI components with seamless backend integration
-- Led team of interns: task allocation, code reviews, technical guidance
-- Collaborated with product managers to align features with requirements
-- Implemented secure data handling and scalable architecture
+- Developed fintech web apps with Django & PostgreSQL
+- Led intern team — task allocation, reviews, and guidance
+- Implemented secure, scalable full-stack architecture
 
 **Key Skills:** Django • JavaScript • PostgreSQL • Team Leadership • Full-Stack Development
 
@@ -118,10 +116,9 @@ Developed financial web applications and led intern team:
 **June 2024 - August 2024**
 
 Developed Certificate Authority Portal for secure digital infrastructure:
-- Designed interactive, user-friendly interfaces for certificate management
-- Integrated backend APIs for real-time request handling and validation
-- Participated in architectural discussions ensuring scalability and security
-- Worked on JWT authentication and secure data handling
+- Developed secure Certificate Authority Portal
+- Integrated APIs for real-time validation with JWT authentication
+- Ensured scalability & security in architecture design
 
 **Key Skills:** React.js • Spring Boot • PostgreSQL • JWT • Security • Full-Stack Development
 
