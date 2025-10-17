@@ -227,7 +227,7 @@ System to detect anomalies in drone telemetry and flight behavior:
 
 **Tech Stack:** Python • Flask • NumPy • Pandas • Matplotlib
 
-**[View Code](https://github.com/beadarshh/Drone-Flight-Anomaly-Detection)**
+**[View Code](https://github.com/beadarshh/-Drone-Flight-Anomaly-Detection)**
 
 ---
 
