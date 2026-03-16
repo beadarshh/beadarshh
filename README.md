@@ -13,7 +13,7 @@
     <a href="mailto:adarshpandey4114@gmail.com" target="_blank">
       <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
     </a>
-    <a href="https://sites.google.com/view/adarsh-pandey-portfolio" target="_blank">
+    <a href="https://www.beadarsh.in" target="_blank">
       <img src="https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=web&logoColor=white" alt="Portfolio"/>
     </a>
   </p>
@@ -94,7 +94,7 @@ I'm a passionate **full-stack developer** and **tech innovator** currently worki
     <a href="https://www.linkedin.com/in/beadarshh">LinkedIn</a> •
     <a href="https://github.com/beadarshh">GitHub</a> •
     <a href="mailto:adarshpandey4114@gmail.com">Email</a> •
-    <a href="https://sites.google.com/view/adarsh-pandey-portfolio">Portfolio</a>
+    <a href="https://www.beadarsh.in">Portfolio</a>
   </p>
 
   <p>
