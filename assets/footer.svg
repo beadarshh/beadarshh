@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title">
+<title id="title">Let's build something remarkable together — beadarsh.in · connect@beadarsh.in</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1610"/><stop offset="1" stop-color="#0B0B0A"/></linearGradient>
+  <radialGradient id="aurora"><stop offset="0" stop-color="#3aaf4b" stop-opacity=".26"/><stop offset="1" stop-color="#3aaf4b" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1" fill="#e8efe9" fill-opacity=".06"/></pattern>
+  <linearGradient id="edgeFade" x1="0" x2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".18" stop-color="#fff"/><stop offset=".82" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <mask id="waveMask"><rect width="1200" height="230" fill="url(#edgeFade)"/></mask>
+  <linearGradient id="headline" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".6" stop-color="#d7fbe0"/><stop offset="1" stop-color="#5fd36f"/></linearGradient>
+  <clipPath id="frame"><rect width="1200" height="230" rx="22"/></clipPath>
+</defs>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,'Cascadia Code','SF Mono',Consolas,Menlo,monospace}
+.wave{animation:wave linear infinite}
+@keyframes wave{to{transform:translateX(-300px)}}
+.breathe{transform-box:fill-box;transform-origin:center;animation:breathe 7s ease-in-out infinite alternate}
+@keyframes breathe{to{transform:scale(1.25);opacity:.6}}
+.ember{fill:#7ee08a;animation:ember linear infinite}
+@keyframes ember{0%{transform:translateY(0);opacity:0}15%{opacity:.7}100%{transform:translateY(-200px);opacity:0}}
+.heart{transform-box:fill-box;transform-origin:center;animation:beat 1.4s ease-in-out infinite}
+@keyframes beat{0%,40%,100%{transform:scale(1)}20%{transform:scale(1.25)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#frame)">
+  <rect width="1200" height="230" fill="url(#bg)"/>
+  <rect width="1200" height="230" fill="url(#dots)"/>
+  <ellipse class="breathe" cx="600" cy="120" rx="520" ry="150" fill="url(#aurora)"/>
+  <g mask="url(#waveMask)" fill="none" stroke-linecap="round">
+    <path class="wave" style="animation-duration:10s" stroke="#3aaf4b" stroke-opacity=".5" stroke-width="1.5" d="M0 34 Q75 16 150 34 T300 34 T450 34 T600 34 T750 34 T900 34 T1050 34 T1200 34 T1350 34 T1500 34"/>
+    <path class="wave" style="animation-duration:15s" stroke="#2dd4bf" stroke-opacity=".3" stroke-width="1.1" d="M0 44 Q75 60 150 44 T300 44 T450 44 T600 44 T750 44 T900 44 T1050 44 T1200 44 T1350 44 T1500 44"/>
+  </g>
+  <g>
+    <circle class="ember" cx="140" cy="232" r="1.3" style="animation-duration:8s"/>
+    <circle class="ember" cx="330" cy="232" r="1" style="animation-duration:10s;animation-delay:-4s"/>
+    <circle class="ember" cx="870" cy="232" r="1.5" style="animation-duration:9s;animation-delay:-2s"/>
+    <circle class="ember" cx="1060" cy="232" r="1.1" style="animation-duration:11s;animation-delay:-6s"/>
+  </g>
+  <text x="600" y="112" text-anchor="middle" font-size="32" font-weight="800" letter-spacing="-.5" fill="url(#headline)">Let's build something remarkable together.</text>
+  <text x="600" y="146" text-anchor="middle" font-size="16" fill="#8a9a8e">Have an idea, a role or a project in mind? I'd love to hear about it.</text>
+  <text x="600" y="190" text-anchor="middle" class="mono" font-size="15" fill="#3aaf4b">beadarsh.in  <tspan fill="#56645a">·</tspan>  connect@beadarsh.in  <tspan fill="#56645a">·</tspan>  Delhi, India</text>
+</g>
+<rect x=".75" y=".75" width="1198.5" height="228.5" rx="21.5" fill="none" stroke="#1f2a22" stroke-width="1.5"/>
+</svg>

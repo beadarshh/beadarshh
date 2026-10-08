@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+<title id="title">Visit beadarsh.in — Adarsh Pandey's portfolio</title>
+<desc id="desc">A browser window loading beadarsh.in: projects, experience, tools, services and contact.</desc>
+<defs>
+  <linearGradient id="win" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d100e"/><stop offset="1" stop-color="#0b140f"/></linearGradient>
+  <radialGradient id="aurora"><stop offset="0" stop-color="#3aaf4b" stop-opacity=".2"/><stop offset="1" stop-color="#3aaf4b" stop-opacity="0"/></radialGradient>
+  <linearGradient id="loadbar" x1="0" x2="1"><stop offset="0" stop-color="#3aaf4b"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient>
+  <linearGradient id="thumbA" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#174a24"/><stop offset="1" stop-color="#0e1a12"/></linearGradient>
+  <linearGradient id="thumbB" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f3f39"/><stop offset="1" stop-color="#0c1716"/></linearGradient>
+  <linearGradient id="sheen" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".09"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <clipPath id="frame"><rect width="1200" height="470" rx="18"/></clipPath>
+  <clipPath id="typed"><rect x="404" y="14" width="0" height="28">
+    <animate attributeName="width" dur="12s" repeatCount="indefinite" calcMode="discrete"
+      keyTimes="0;.0333;.0417;.05;.0583;.0667;.075;.0833;.0917;.1;.1083;.1167;.9667"
+      values="0;9;18;27;36;45;54;63;72;81;90;100;0"/>
+  </rect></clipPath>
+  <clipPath id="tiles">
+    <rect x="612" y="88" width="172" height="170" rx="14"/><rect x="798" y="88" width="172" height="170" rx="14"/><rect x="984" y="88" width="172" height="170" rx="14"/>
+    <rect x="612" y="272" width="172" height="170" rx="14"/><rect x="798" y="272" width="172" height="170" rx="14"/><rect x="984" y="272" width="172" height="170" rx="14"/>
+  </clipPath>
+</defs>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,'Cascadia Code','SF Mono',Consolas,Menlo,monospace}
+.caret{animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.load{transform-box:fill-box;transform-origin:left center;animation:load 12s infinite both}
+@keyframes load{0%,13%{transform:scaleX(0);opacity:1}24%{transform:scaleX(.72)}29%{transform:scaleX(1);opacity:1}33%,100%{transform:scaleX(1);opacity:0}}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 12s infinite both}
+@keyframes spin{0%,12%{transform:rotate(0deg)}29%,100%{transform:rotate(720deg)}}
+.show{animation:show 12s cubic-bezier(.2,.8,.2,1) infinite both}
+@keyframes show{0%,27%{opacity:0;transform:translateY(16px)}33%,89%{opacity:1;transform:translateY(0)}94%,100%{opacity:0;transform:translateY(-6px)}}
+.cursor{transform-box:fill-box;transform-origin:0 0;animation:cursor 12s cubic-bezier(.45,0,.3,1) infinite both}
+@keyframes cursor{0%,44%{transform:translate(880px,64px);opacity:0}48%{opacity:1}58%{transform:translate(0,0) scale(1)}60%{transform:translate(0,0) scale(.82)}62%,88%{transform:translate(0,0) scale(1);opacity:1}92%,100%{transform:translate(0,0);opacity:0}}
+.ripple{transform-box:fill-box;transform-origin:center;animation:ripple 12s ease-out infinite both}
+@keyframes ripple{0%,59.5%{transform:scale(0);opacity:0}60%{transform:scale(1);opacity:.7}70%,100%{transform:scale(7);opacity:0}}
+.press{transform-box:fill-box;transform-origin:center;animation:press 12s infinite both}
+@keyframes press{0%,59%,63%,100%{transform:scale(1)}61%{transform:scale(.95)}}
+.ring{transform-box:fill-box;transform-origin:center;animation:ring 2.2s ease-out infinite}
+@keyframes ring{0%{transform:scale(1);opacity:.55}100%{transform:scale(1.12,1.45);opacity:0}}
+.sweep{animation:sweep 3.6s ease-in-out infinite}
+@keyframes sweep{0%{transform:translateX(0) skewX(-20deg)}70%,100%{transform:translateX(760px) skewX(-20deg)}}
+.dot{animation:dot 1.2s ease-in-out infinite}
+@keyframes dot{0%,60%,100%{opacity:.25}30%{opacity:1}}
+.spike{transform-box:fill-box;transform-origin:center;animation:spike 1.6s ease-out infinite}
+@keyframes spike{0%{transform:scale(1);opacity:.9}100%{transform:scale(3.4);opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.cursor,.ripple{display:none}}
+</style>
+
+<g clip-path="url(#frame)">
+  <rect width="1200" height="470" fill="url(#win)"/>
+  <ellipse cx="260" cy="300" rx="420" ry="260" fill="url(#aurora)"/>
+
+  <!-- title bar -->
+  <rect width="1200" height="56" fill="#111512"/>
+  <rect y="55.5" width="1200" height="1" fill="#1f2a22"/>
+  <circle cx="30" cy="28" r="6.5" fill="#ff5f57"/><circle cx="52" cy="28" r="6.5" fill="#febc2e"/><circle cx="74" cy="28" r="6.5" fill="#28c840"/>
+  <path d="M112 22 l-6 6 6 6 M132 22 l6 6 -6 6" fill="none" stroke="#56645a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="300" y="14" width="600" height="28" rx="14" fill="#0B0B0A" stroke="#1f2a22"/>
+  <g fill="none" stroke="#3aaf4b" stroke-width="1.6"><rect x="317" y="27" width="11" height="8" rx="1.5" fill="#3aaf4b" fill-opacity=".25"/><path d="M319.5 27 v-2.5 a3 3 0 0 1 6 0 v2.5"/></g>
+  <text x="338" y="33" class="mono" font-size="14" fill="#56645a" textLength="64" lengthAdjust="spacingAndGlyphs">https://</text>
+  <text x="404" y="33" class="mono" font-size="14" fill="#e8efe9" clip-path="url(#typed)" textLength="99" lengthAdjust="spacingAndGlyphs">beadarsh.in</text>
+  <rect class="caret" x="405" y="20" width="1.8" height="16" fill="#3aaf4b">
+    <animate attributeName="x" dur="12s" repeatCount="indefinite" calcMode="discrete"
+      keyTimes="0;.0333;.0417;.05;.0583;.0667;.075;.0833;.0917;.1;.1083;.1167;.9667"
+      values="405;414;423;432;441;450;459;468;477;486;495;505;405"/>
+  </rect>
+  <g class="spin"><path d="M886 22.5 a6 6 0 1 0 1.8 4.3" fill="none" stroke="#8a9a8e" stroke-width="1.8" stroke-linecap="round"/><path d="M887.5 18.5 v4.5 h-4.5" fill="none" stroke="#8a9a8e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <rect class="load" x="0" y="54" width="1200" height="3" fill="url(#loadbar)"/>
+
+  <!-- page: intro -->
+  <g class="show">
+    <text x="56" y="118" class="mono" font-size="12.5" fill="#3aaf4b" letter-spacing="3">PORTFOLIO · PROJECTS · TOOLS</text>
+    <text x="54" y="172" font-size="46" font-weight="800" letter-spacing="-1" fill="#ffffff">Adarsh Pandey</text>
+    <text x="56" y="210" font-size="20" font-weight="600" fill="#cfe9d4">Software Engineer — AI &amp; Full Stack</text>
+    <text x="56" y="248" font-size="15.5" fill="#8a9a8e">AI products, scalable web platforms, Chrome extensions</text>
+    <text x="56" y="272" font-size="15.5" fill="#8a9a8e">and open-source tools — all in one place.</text>
+  </g>
+  <g class="show" style="animation-delay:.25s" font-size="13" text-anchor="middle" fill="#cfe9d4">
+    <rect x="56" y="298" width="92" height="32" rx="16" fill="#e8efe9" fill-opacity=".05" stroke="#1f2a22"/><text x="102" y="319">Projects</text>
+    <rect x="158" y="298" width="108" height="32" rx="16" fill="#e8efe9" fill-opacity=".05" stroke="#1f2a22"/><text x="212" y="319">Experience</text>
+    <rect x="276" y="298" width="72" height="32" rx="16" fill="#e8efe9" fill-opacity=".05" stroke="#1f2a22"/><text x="312" y="319">Tools</text>
+    <rect x="358" y="298" width="90" height="32" rx="16" fill="#e8efe9" fill-opacity=".05" stroke="#1f2a22"/><text x="403" y="319">Services</text>
+    <rect x="458" y="298" width="86" height="32" rx="16" fill="#e8efe9" fill-opacity=".05" stroke="#1f2a22"/><text x="501" y="319">Contact</text>
+  </g>
+  <g class="show" style="animation-delay:.5s">
+    <rect class="ring" x="56" y="354" width="240" height="52" rx="26" fill="none" stroke="#3aaf4b" stroke-width="1.5"/>
+    <g class="press">
+      <rect x="56" y="354" width="240" height="52" rx="26" fill="#3aaf4b"/>
+      <text x="162" y="386" text-anchor="middle" font-size="17" font-weight="700" fill="#0B0B0A">Visit beadarsh.in</text>
+      <path d="M248 380 h16 m-6 -6 l6 6 -6 6" fill="none" stroke="#0B0B0A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <!-- page: project tiles -->
+  <g class="show" style="animation-delay:.35s">
+    <rect x="612" y="88" width="172" height="170" rx="14" fill="#111512" stroke="#1f2a22"/>
+    <rect x="622" y="98" width="152" height="96" rx="9" fill="url(#thumbA)"/>
+    <g fill="none" stroke="#a7f3b5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+      <rect x="664" y="118" width="30" height="20" rx="4"/><rect x="702" y="154" width="30" height="20" rx="4"/><path d="M679 138 v26 h23"/><path d="M697 160 l5 4 -5 4"/>
+    </g>
+    <text x="628" y="222" font-size="15" font-weight="700" fill="#ffffff">DiagramGen</text>
+    <text x="628" y="243" font-size="12" fill="#8a9a8e">AI Mermaid diagrams</text>
+  </g>
+  <g class="show" style="animation-delay:.43s">
+    <rect x="798" y="88" width="172" height="170" rx="14" fill="#111512" stroke="#1f2a22"/>
+    <rect x="808" y="98" width="152" height="96" rx="9" fill="url(#thumbB)"/>
+    <g fill="none" stroke="#99f6e4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+      <rect x="860" y="130" width="48" height="32" rx="4"/><path d="M862 133 L884 150 L906 133"/>
+    </g>
+    <circle cx="907" cy="131" r="5" fill="#3aaf4b"><animate attributeName="r" values="5;7;5" dur="1.6s" repeatCount="indefinite"/></circle>
+    <text x="814" y="222" font-size="15" font-weight="700" fill="#ffffff">EasyMail</text>
+    <text x="814" y="243" font-size="12" fill="#8a9a8e">Self-hosted email platform</text>
+  </g>
+  <g class="show" style="animation-delay:.51s">
+    <rect x="984" y="88" width="172" height="170" rx="14" fill="#111512" stroke="#1f2a22"/>
+    <rect x="994" y="98" width="152" height="96" rx="9" fill="url(#thumbA)"/>
+    <path d="M1046 128 h36 a10 10 0 0 1 10 10 v10 a10 10 0 0 1 -10 10 h-24 l-10 8 v-8 h-2 a10 10 0 0 1 -10 -10 v-10 a10 10 0 0 1 10 -10 z" fill="none" stroke="#a7f3b5" stroke-width="2" stroke-linejoin="round"/>
+    <circle class="dot" cx="1056" cy="143" r="3" fill="#a7f3b5"/><circle class="dot" cx="1068" cy="143" r="3" fill="#a7f3b5" style="animation-delay:.2s"/><circle class="dot" cx="1080" cy="143" r="3" fill="#a7f3b5" style="animation-delay:.4s"/>
+    <text x="1000" y="222" font-size="15" font-weight="700" fill="#ffffff">Alex AI</text>
+    <text x="1000" y="243" font-size="12" fill="#8a9a8e">Interview feedback bot</text>
+  </g>
+  <g class="show" style="animation-delay:.59s">
+    <rect x="612" y="272" width="172" height="170" rx="14" fill="#111512" stroke="#1f2a22"/>
+    <rect x="622" y="282" width="152" height="96" rx="9" fill="url(#thumbB)"/>
+    <ellipse cx="698" cy="330" rx="34" ry="14" fill="none" stroke="#99f6e4" stroke-opacity=".5" stroke-width="1.5" transform="rotate(-18 698 330)"/>
+    <circle cx="698" cy="330" r="7" fill="#99f6e4"/>
+    <g transform="rotate(-18 698 330)"><circle r="4" fill="#3aaf4b"><animateMotion dur="5s" repeatCount="indefinite" path="M732 330 A34 14 0 1 1 664 330 A34 14 0 1 1 732 330"/></circle></g>
+    <text x="628" y="406" font-size="15" font-weight="700" fill="#ffffff">Orbit</text>
+    <text x="628" y="427" font-size="12" fill="#8a9a8e">Team task OS</text>
+  </g>
+  <g class="show" style="animation-delay:.67s">
+    <rect x="798" y="272" width="172" height="170" rx="14" fill="#111512" stroke="#1f2a22"/>
+    <rect x="808" y="282" width="152" height="96" rx="9" fill="url(#thumbA)"/>
+    <path d="M884 304 l20 8 v14 c0 14 -10 22 -20 26 c-10 -4 -20 -12 -20 -26 v-14 z" fill="#3aaf4b" fill-opacity=".15" stroke="#a7f3b5" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M876 329 l6 6 l11 -12" fill="none" stroke="#a7f3b5" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="814" y="406" font-size="15" font-weight="700" fill="#ffffff">Content Protection</text>
+    <text x="814" y="427" font-size="12" fill="#8a9a8e">React · npm package</text>
+  </g>
+  <g class="show" style="animation-delay:.75s">
+    <rect x="984" y="272" width="172" height="170" rx="14" fill="#111512" stroke="#1f2a22"/>
+    <rect x="994" y="282" width="152" height="96" rx="9" fill="url(#thumbB)"/>
+    <polyline points="1012,344 1028,338 1040,344 1054,336 1066,304 1076,352 1090,340 1104,344 1128,330" fill="none" stroke="#99f6e4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle class="spike" cx="1066" cy="304" r="4" fill="#ff5f57"/><circle cx="1066" cy="304" r="4" fill="#ff5f57"/>
+    <text x="1000" y="406" font-size="15" font-weight="700" fill="#ffffff">Flight Anomaly AI</text>
+    <text x="1000" y="427" font-size="12" fill="#8a9a8e">Drone telemetry ML</text>
+  </g>
+  <g class="show" style="animation-delay:.5s"><g clip-path="url(#tiles)"><rect class="sweep" x="520" y="80" width="90" height="370" fill="url(#sheen)"/></g></g>
+
+  <!-- visitor -->
+  <circle class="ripple" cx="238" cy="390" r="10" fill="none" stroke="#a7f3b5" stroke-width="2"/>
+  <g class="cursor">
+    <path d="M238 380 v24 l6.5 -6 l4.5 10 l4.2 -1.9 l-4.4 -9.8 h8.8 z" fill="#ffffff" stroke="#0B0B0A" stroke-width="1.5" stroke-linejoin="round"/>
+  </g>
+</g>
+<rect x=".75" y=".75" width="1198.5" height="468.5" rx="17.5" fill="none" stroke="#1f2a22" stroke-width="1.5"/>
+</svg>

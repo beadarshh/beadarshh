@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="28" viewBox="0 0 1200 28" role="img" aria-label="divider">
+<title>divider</title>
+<defs>
+  <linearGradient id="base" x1="0" x2="1">
+    <stop offset="0" stop-color="#3aaf4b" stop-opacity="0"/><stop offset=".5" stop-color="#3aaf4b" stop-opacity=".45"/><stop offset="1" stop-color="#3aaf4b" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="tail" x1="0" x2="1">
+    <stop offset="0" stop-color="#3aaf4b" stop-opacity="0"/><stop offset=".85" stop-color="#5fd36f"/><stop offset="1" stop-color="#d7fbe0"/>
+  </linearGradient>
+  <linearGradient id="tailTeal" x1="1" x2="0">
+    <stop offset="0" stop-color="#2dd4bf" stop-opacity="0"/><stop offset=".85" stop-color="#2dd4bf"/><stop offset="1" stop-color="#ccfbf1"/>
+  </linearGradient>
+  <radialGradient id="head"><stop offset="0" stop-color="#ffffff"/><stop offset=".35" stop-color="#a7f3b5" stop-opacity=".8"/><stop offset="1" stop-color="#3aaf4b" stop-opacity="0"/></radialGradient>
+  <radialGradient id="headTeal"><stop offset="0" stop-color="#ffffff"/><stop offset=".35" stop-color="#5eead4" stop-opacity=".8"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></radialGradient>
+</defs>
+<style>
+.comet{animation:fly 4.2s cubic-bezier(.45,0,.55,1) infinite}
+.comet2{animation:back 6.5s cubic-bezier(.45,0,.55,1) -2s infinite}
+@keyframes fly{from{transform:translateX(-260px)}to{transform:translateX(1460px)}}
+@keyframes back{from{transform:translateX(1460px)}to{transform:translateX(-260px)}}
+.gem{transform-box:fill-box;transform-origin:center;animation:gem 2.8s ease-in-out infinite}
+@keyframes gem{0%,100%{transform:rotate(45deg) scale(1)}50%{transform:rotate(225deg) scale(1.25)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="0" y="13.5" width="1200" height="1" fill="url(#base)"/>
+<g class="comet"><rect x="-240" y="13" width="240" height="2" rx="1" fill="url(#tail)"/><circle cx="0" cy="14" r="9" fill="url(#head)"/></g>
+<g class="comet2" opacity=".7"><rect x="0" y="13.25" width="160" height="1.5" rx=".75" fill="url(#tailTeal)"/><circle cx="0" cy="14" r="6" fill="url(#headTeal)"/></g>
+<rect class="gem" x="594" y="8" width="12" height="12" rx="2" fill="#0B0B0A" stroke="#3aaf4b" stroke-width="1.5"/>
+<circle cx="580" cy="14" r="1.5" fill="#3aaf4b"/><circle cx="620" cy="14" r="1.5" fill="#3aaf4b"/>
+</svg>
