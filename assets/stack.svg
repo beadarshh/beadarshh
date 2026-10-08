@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="492" viewBox="0 0 1200 492" role="img" aria-label="Tech stack — React, Next.js, Vue, TypeScript, JavaScript, Tailwind CSS, HTML5, CSS3, Figma, Node.js, Python, Java, Spring Boot, Django, Supabase, PostgreSQL, MongoDB, TensorFlow, Gemini API, LLMs &amp; RAG, Computer Vision, Docker, Git, GitHub Actions, Selenium, Vercel">
+<title>Tech stack — React, Next.js, Vue, TypeScript, JavaScript, Tailwind CSS, HTML5, CSS3, Figma, Node.js, Python, Java, Spring Boot, Django, Supabase, PostgreSQL, MongoDB, TensorFlow, Gemini API, LLMs &amp; RAG, Computer Vision, Docker, Git, GitHub Actions, Selenium, Vercel</title>
+<defs>
+  <radialGradient id="glow" cx="0.9" cy="0.95" r=".75"><stop offset="0" stop-color="#3aaf4b" stop-opacity=".16"/><stop offset="1" stop-color="#3aaf4b" stop-opacity="0"/></radialGradient>
+  <linearGradient id="runGrad" x1="0" x2="1"><stop offset="0" stop-color="#3aaf4b" stop-opacity="0"/><stop offset=".6" stop-color="#3aaf4b"/><stop offset="1" stop-color="#a7f3b5"/></linearGradient>
+  <clipPath id="frame"><rect x="0" width="1200" height="492" rx="22"/></clipPath>
+</defs>
+<style>
+text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;fill:#e8efe9}
+.mono{font-family:ui-monospace, SFMono-Regular, 'Cascadia Code', 'SF Mono', Consolas, Menlo, monospace}
+.rise{animation:rise .9s cubic-bezier(.2,.8,.2,1) both}
+@keyframes rise{from{transform:translateY(14px);opacity:0}to{transform:translateY(0px);opacity:1}}
+.runner{fill:none;stroke:url(#runGrad);stroke-width:2;stroke-linecap:round;stroke-dasharray:90 910;animation:run 8s linear infinite}
+@keyframes run{from{stroke-dashoffset:0}to{stroke-dashoffset:-1000}}
+.mark{transform-box:fill-box;transform-origin:center;animation:mark 4s ease-in-out infinite}
+@keyframes mark{0%,100%{transform:rotate(45deg)}50%{transform:rotate(225deg)}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-out infinite}
+@keyframes pulse{0%{transform:scale(1);opacity:.8}100%{transform:scale(2.6);opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}.twinkle{transform-box:fill-box;transform-origin:center;animation:twinkle 5s ease-in-out infinite}@keyframes twinkle{0%,70%,100%{transform:scale(1);opacity:.9}80%{transform:scale(1.6);opacity:.2}}</style>
+<g clip-path="url(#frame)">
+  <rect x="0" width="1200" height="492" fill="#0B0B0A"/>
+  <rect x="0" width="1200" height="492" fill="url(#glow)"/>
+  
+<text x="43" y="61" style="font-size:25px;font-weight:700">Tech Stack</text>
+<rect class="mark" x="45" y="80" width="9" height="9" rx="2" fill="#3aaf4b"/>
+<text x="65" y="91" class="mono" style="font-size:15px;fill:#8a9a8e">// tools I reach for every day</text>
+<text x="43" y="140" class="mono" style="font-size:13px;letter-spacing:2px;fill:#3aaf4b">FRONTEND &amp; DESIGN</text>
+<g class="rise" style="animation-delay:0.05s">
+  <rect x="43" y="156" width="84" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="64" cy="176" r="9" fill="#61DAFB" fill-opacity=".18" style="animation-delay:0.00s"/>
+  <circle cx="64" cy="176" r="5" fill="#61DAFB"/>
+  <text x="78" y="181.5" style="font-size:15px">React</text>
+</g>
+<g class="rise" style="animation-delay:0.08s">
+  <rect x="137" y="156" width="99.19999999999999" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="158" cy="176" r="9" fill="#ffffff" fill-opacity=".18" style="animation-delay:0.37s"/>
+  <circle cx="158" cy="176" r="5" fill="#ffffff"/>
+  <text x="172" y="181.5" style="font-size:15px">Next.js</text>
+</g>
+<g class="rise" style="animation-delay:0.11s">
+  <rect x="246.2" y="156" width="68.8" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="267.2" cy="176" r="9" fill="#41b883" fill-opacity=".18" style="animation-delay:0.74s"/>
+  <circle cx="267.2" cy="176" r="5" fill="#41b883"/>
+  <text x="281.2" y="181.5" style="font-size:15px">Vue</text>
+</g>
+<g class="rise" style="animation-delay:0.14s">
+  <rect x="325" y="156" width="122" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="346" cy="176" r="9" fill="#3178c6" fill-opacity=".18" style="animation-delay:1.11s"/>
+  <circle cx="346" cy="176" r="5" fill="#3178c6"/>
+  <text x="360" y="181.5" style="font-size:15px">TypeScript</text>
+</g>
+<g class="rise" style="animation-delay:0.17s">
+  <rect x="457" y="156" width="122" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="478" cy="176" r="9" fill="#f7df1e" fill-opacity=".18" style="animation-delay:1.48s"/>
+  <circle cx="478" cy="176" r="5" fill="#f7df1e"/>
+  <text x="492" y="181.5" style="font-size:15px">JavaScript</text>
+</g>
+<g class="rise" style="animation-delay:0.20s">
+  <rect x="589" y="156" width="137.2" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="610" cy="176" r="9" fill="#38bdf8" fill-opacity=".18" style="animation-delay:1.85s"/>
+  <circle cx="610" cy="176" r="5" fill="#38bdf8"/>
+  <text x="624" y="181.5" style="font-size:15px">Tailwind CSS</text>
+</g>
+<g class="rise" style="animation-delay:0.23s">
+  <rect x="736.2" y="156" width="84" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="757.2" cy="176" r="9" fill="#e34c26" fill-opacity=".18" style="animation-delay:2.22s"/>
+  <circle cx="757.2" cy="176" r="5" fill="#e34c26"/>
+  <text x="771.2" y="181.5" style="font-size:15px">HTML5</text>
+</g>
+<g class="rise" style="animation-delay:0.26s">
+  <rect x="830.2" y="156" width="76.4" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="851.2" cy="176" r="9" fill="#2965f1" fill-opacity=".18" style="animation-delay:2.59s"/>
+  <circle cx="851.2" cy="176" r="5" fill="#2965f1"/>
+  <text x="865.2" y="181.5" style="font-size:15px">CSS3</text>
+</g>
+<g class="rise" style="animation-delay:0.29s">
+  <rect x="916.6" y="156" width="84" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="937.6" cy="176" r="9" fill="#f24e1e" fill-opacity=".18" style="animation-delay:2.96s"/>
+  <circle cx="937.6" cy="176" r="5" fill="#f24e1e"/>
+  <text x="951.6" y="181.5" style="font-size:15px">Figma</text>
+</g>
+<text x="43" y="242" class="mono" style="font-size:13px;letter-spacing:2px;fill:#3aaf4b">BACKEND &amp; DATABASES</text>
+<g class="rise" style="animation-delay:0.32s">
+  <rect x="43" y="258" width="99.19999999999999" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="64" cy="278" r="9" fill="#5fa04e" fill-opacity=".18" style="animation-delay:3.33s"/>
+  <circle cx="64" cy="278" r="5" fill="#5fa04e"/>
+  <text x="78" y="283.5" style="font-size:15px">Node.js</text>
+</g>
+<g class="rise" style="animation-delay:0.35s">
+  <rect x="152.2" y="258" width="91.6" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="173.2" cy="278" r="9" fill="#4b8bbe" fill-opacity=".18" style="animation-delay:3.70s"/>
+  <circle cx="173.2" cy="278" r="5" fill="#4b8bbe"/>
+  <text x="187.2" y="283.5" style="font-size:15px">Python</text>
+</g>
+<g class="rise" style="animation-delay:0.38s">
+  <rect x="253.79999999999998" y="258" width="76.4" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="274.79999999999995" cy="278" r="9" fill="#f89820" fill-opacity=".18" style="animation-delay:4.07s"/>
+  <circle cx="274.79999999999995" cy="278" r="5" fill="#f89820"/>
+  <text x="288.79999999999995" y="283.5" style="font-size:15px">Java</text>
+</g>
+<g class="rise" style="animation-delay:0.41s">
+  <rect x="340.2" y="258" width="129.6" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="361.2" cy="278" r="9" fill="#6db33f" fill-opacity=".18" style="animation-delay:4.44s"/>
+  <circle cx="361.2" cy="278" r="5" fill="#6db33f"/>
+  <text x="375.2" y="283.5" style="font-size:15px">Spring Boot</text>
+</g>
+<g class="rise" style="animation-delay:0.44s">
+  <rect x="479.79999999999995" y="258" width="91.6" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="500.79999999999995" cy="278" r="9" fill="#44b78b" fill-opacity=".18" style="animation-delay:4.81s"/>
+  <circle cx="500.79999999999995" cy="278" r="5" fill="#44b78b"/>
+  <text x="514.8" y="283.5" style="font-size:15px">Django</text>
+</g>
+<g class="rise" style="animation-delay:0.47s">
+  <rect x="581.4" y="258" width="106.8" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="602.4" cy="278" r="9" fill="#3ecf8e" fill-opacity=".18" style="animation-delay:0.18s"/>
+  <circle cx="602.4" cy="278" r="5" fill="#3ecf8e"/>
+  <text x="616.4" y="283.5" style="font-size:15px">Supabase</text>
+</g>
+<g class="rise" style="animation-delay:0.50s">
+  <rect x="698.1999999999999" y="258" width="122" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="719.1999999999999" cy="278" r="9" fill="#4f8cc9" fill-opacity=".18" style="animation-delay:0.55s"/>
+  <circle cx="719.1999999999999" cy="278" r="5" fill="#4f8cc9"/>
+  <text x="733.1999999999999" y="283.5" style="font-size:15px">PostgreSQL</text>
+</g>
+<g class="rise" style="animation-delay:0.53s">
+  <rect x="830.1999999999999" y="258" width="99.19999999999999" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="851.1999999999999" cy="278" r="9" fill="#47a248" fill-opacity=".18" style="animation-delay:0.92s"/>
+  <circle cx="851.1999999999999" cy="278" r="5" fill="#47a248"/>
+  <text x="865.1999999999999" y="283.5" style="font-size:15px">MongoDB</text>
+</g>
+<text x="43" y="344" class="mono" style="font-size:13px;letter-spacing:2px;fill:#3aaf4b">AI, DEVOPS &amp; TOOLING</text>
+<g class="rise" style="animation-delay:0.56s">
+  <rect x="43" y="360" width="122" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="64" cy="380" r="9" fill="#ff6f00" fill-opacity=".18" style="animation-delay:1.29s"/>
+  <circle cx="64" cy="380" r="5" fill="#ff6f00"/>
+  <text x="78" y="385.5" style="font-size:15px">TensorFlow</text>
+</g>
+<g class="rise" style="animation-delay:0.59s">
+  <rect x="175" y="360" width="122" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="196" cy="380" r="9" fill="#8e75ff" fill-opacity=".18" style="animation-delay:1.66s"/>
+  <circle cx="196" cy="380" r="5" fill="#8e75ff"/>
+  <text x="210" y="385.5" style="font-size:15px">Gemini API</text>
+</g>
+<g class="rise" style="animation-delay:0.62s">
+  <rect x="307" y="360" width="122" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="328" cy="380" r="9" fill="#3aaf4b" fill-opacity=".18" style="animation-delay:2.03s"/>
+  <circle cx="328" cy="380" r="5" fill="#3aaf4b"/>
+  <text x="342" y="385.5" style="font-size:15px">LLMs &amp; RAG</text>
+</g>
+<g class="rise" style="animation-delay:0.65s">
+  <rect x="439" y="360" width="160" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="460" cy="380" r="9" fill="#2dd4bf" fill-opacity=".18" style="animation-delay:2.40s"/>
+  <circle cx="460" cy="380" r="5" fill="#2dd4bf"/>
+  <text x="474" y="385.5" style="font-size:15px">Computer Vision</text>
+</g>
+<g class="rise" style="animation-delay:0.68s">
+  <rect x="609" y="360" width="91.6" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="630" cy="380" r="9" fill="#2496ed" fill-opacity=".18" style="animation-delay:2.77s"/>
+  <circle cx="630" cy="380" r="5" fill="#2496ed"/>
+  <text x="644" y="385.5" style="font-size:15px">Docker</text>
+</g>
+<g class="rise" style="animation-delay:0.71s">
+  <rect x="710.6" y="360" width="68.8" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="731.6" cy="380" r="9" fill="#f05032" fill-opacity=".18" style="animation-delay:3.14s"/>
+  <circle cx="731.6" cy="380" r="5" fill="#f05032"/>
+  <text x="745.6" y="385.5" style="font-size:15px">Git</text>
+</g>
+<g class="rise" style="animation-delay:0.74s">
+  <rect x="789.4" y="360" width="152.39999999999998" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="810.4" cy="380" r="9" fill="#2088ff" fill-opacity=".18" style="animation-delay:3.51s"/>
+  <circle cx="810.4" cy="380" r="5" fill="#2088ff"/>
+  <text x="824.4" y="385.5" style="font-size:15px">GitHub Actions</text>
+</g>
+<g class="rise" style="animation-delay:0.77s">
+  <rect x="951.8" y="360" width="106.8" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="972.8" cy="380" r="9" fill="#43b02a" fill-opacity=".18" style="animation-delay:3.88s"/>
+  <circle cx="972.8" cy="380" r="5" fill="#43b02a"/>
+  <text x="986.8" y="385.5" style="font-size:15px">Selenium</text>
+</g>
+<g class="rise" style="animation-delay:0.80s">
+  <rect x="43" y="412" width="91.6" height="40" rx="20" fill="#111512" stroke="#1f2a22"/>
+  <circle class="twinkle" cx="64" cy="432" r="9" fill="#ffffff" fill-opacity=".18" style="animation-delay:4.25s"/>
+  <circle cx="64" cy="432" r="5" fill="#ffffff"/>
+  <text x="78" y="437.5" style="font-size:15px">Vercel</text>
+</g>
+</g>
+<rect x="0.75" y=".75" width="1198.5" height="490.5" rx="21.25" fill="none" stroke="#1f2a22" stroke-width="1.5"/>
+<rect class="runner" x="0.75" y=".75" width="1198.5" height="490.5" rx="21.25" pathLength="1000" style="animation-delay:-3.4s"/>
+</svg>

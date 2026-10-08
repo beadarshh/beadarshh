@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="505" viewBox="0 0 1200 505" role="img" aria-label="What I do — scalable web apps, robust APIs, AI integration, UI/UX design, workflow automation, technical leadership">
+<title>What I do — scalable web apps, robust APIs, AI integration, UI/UX design, workflow automation, technical leadership</title>
+<defs>
+  <radialGradient id="glow" cx="0.1" cy="0.9" r=".75"><stop offset="0" stop-color="#3aaf4b" stop-opacity=".16"/><stop offset="1" stop-color="#3aaf4b" stop-opacity="0"/></radialGradient>
+  <linearGradient id="runGrad" x1="0" x2="1"><stop offset="0" stop-color="#3aaf4b" stop-opacity="0"/><stop offset=".6" stop-color="#3aaf4b"/><stop offset="1" stop-color="#a7f3b5"/></linearGradient>
+  <clipPath id="frame"><rect x="0" width="1200" height="505" rx="22"/></clipPath>
+</defs>
+<style>
+text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;fill:#e8efe9}
+.mono{font-family:ui-monospace, SFMono-Regular, 'Cascadia Code', 'SF Mono', Consolas, Menlo, monospace}
+.rise{animation:rise .9s cubic-bezier(.2,.8,.2,1) both}
+@keyframes rise{from{transform:translateY(14px);opacity:0}to{transform:translateY(0px);opacity:1}}
+.runner{fill:none;stroke:url(#runGrad);stroke-width:2;stroke-linecap:round;stroke-dasharray:90 910;animation:run 8s linear infinite}
+@keyframes run{from{stroke-dashoffset:0}to{stroke-dashoffset:-1000}}
+.mark{transform-box:fill-box;transform-origin:center;animation:mark 4s ease-in-out infinite}
+@keyframes mark{0%,100%{transform:rotate(45deg)}50%{transform:rotate(225deg)}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-out infinite}
+@keyframes pulse{0%{transform:scale(1);opacity:.8}100%{transform:scale(2.6);opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.dot{animation:dot 1.2s ease-in-out infinite}
+@keyframes dot{0%,60%,100%{opacity:.25}30%{opacity:1}}
+.eyes{animation:eyes 4s ease-in-out infinite}
+@keyframes eyes{0%,100%{transform:translateX(0px)}25%{transform:translateX(-1.6px)}50%{transform:translateX(1.6px)}75%{transform:translate(0px,1.2px)}}
+.glowbox{animation:glowbox 4.2s ease-in-out infinite}
+@keyframes glowbox{0%,100%{opacity:1}50%{opacity:.55}}
+.sheen{animation:sheen 6s ease-in-out infinite}
+@keyframes sheen{0%{transform:translateX(0px) skewX(-20deg)}55%,100%{transform:translateX(1400px) skewX(-20deg)}}</style>
+<g clip-path="url(#frame)">
+  <rect x="0" width="1200" height="505" fill="#0B0B0A"/>
+  <rect x="0" width="1200" height="505" fill="url(#glow)"/>
+  <defs><clipPath id="tiles"><rect x="43" y="118" width="356" height="162" rx="16"/><rect x="422" y="118" width="356" height="162" rx="16"/><rect x="801" y="118" width="356" height="162" rx="16"/><rect x="43" y="303" width="356" height="162" rx="16"/><rect x="422" y="303" width="356" height="162" rx="16"/><rect x="801" y="303" width="356" height="162" rx="16"/></clipPath><linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+
+<text x="43" y="61" style="font-size:25px;font-weight:700">What I Do</text>
+<rect class="mark" x="45" y="80" width="9" height="9" rx="2" fill="#3aaf4b"/>
+<text x="65" y="91" class="mono" style="font-size:15px;fill:#8a9a8e">// the work I love shipping</text>
+<g class="rise" style="animation-delay:0.10s">
+  <rect x="43" y="118" width="356" height="162" rx="16" fill="#111512" stroke="#1f2a22"/>
+  <g class="glowbox" style="animation-delay:0.0s">
+<rect x="67" y="142" width="48" height="48" rx="13" fill="#3aaf4b" fill-opacity=".1" stroke="#3aaf4b" stroke-opacity=".35"/>
+<g transform="translate(91 166)" fill="none" stroke="#a7f3b5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="-14" y="-11" width="28" height="22" rx="3.5"/><path d="M-14 -4 H14"/><circle cx="-9.5" cy="-7.5" r="1" fill="#a7f3b5"/><circle cx="-6" cy="-7.5" r="1" fill="#a7f3b5"/></g></g>
+  <text x="131" y="173" style="font-size:20px;font-weight:700">Scalable Web Apps</text>
+  <text x="67" y="222" class="" style="font-size:16.5px;fill:#a9b8ad" xml:space="preserve"><tspan>Modern full-stack products, from</tspan></text>
+<text x="67" y="245" class="" style="font-size:16.5px;fill:#a9b8ad" xml:space="preserve"><tspan>database schema to pixel-perfect UI.</tspan></text>
+</g>
+<g class="rise" style="animation-delay:0.18s">
+  <rect x="422" y="118" width="356" height="162" rx="16" fill="#111512" stroke="#1f2a22"/>
+  <g class="glowbox" style="animation-delay:0.7s">
+<rect x="446" y="142" width="48" height="48" rx="13" fill="#3aaf4b" fill-opacity=".1" stroke="#3aaf4b" stroke-opacity=".35"/>
+<g transform="translate(470 166)" fill="none" stroke="#a7f3b5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-6 -12 C-11 -12 -10 -3 -14 0 C-10 3 -11 12 -6 12 M6 -12 C11 -12 10 -3 14 0 C10 3 11 12 6 12"/><circle cx="0" cy="0" r="2" fill="#a7f3b5"/></g></g>
+  <text x="510" y="173" style="font-size:20px;font-weight:700">Robust APIs</text>
+  <text x="446" y="222" class="" style="font-size:16.5px;fill:#a9b8ad" xml:space="preserve"><tspan>Clean, documented APIs that let</tspan></text>
+<text x="446" y="245" class="" style="font-size:16.5px;fill:#a9b8ad" xml:space="preserve"><tspan>systems talk to each other</tspan></text>
+<text x="446" y="268" class="" style="font-size:16.5px;fill:#a9b8ad" xml:space="preserve"><tspan>seamlessly.</tspan></text>
+</g>
+<g class="rise" style="animation-delay:0.26s">
+  <rect x="801" y="118" width="356" height="162" rx="16" fill="#111512" stroke="#1f2a22"/>
+  <g class="glowbox" style="animation-delay:1.4s">
+<rect x="825" y="142" width="48" height="48" rx="13" fill="#3aaf4b" fill-opacity=".1" stroke="#3aaf4b" stroke-opacity=".35"/>
+<g transform="translate(849 166)" fill="none" stroke="#a7f3b5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M0 -13 C1.5 -4 4 -1.5 13 0 C4 1.5 1.5 4 0 13 C-1.5 4 -4 1.5 -13 0 C-4 -1.5 -1.5 -4 0 -13Z" fill="#a7f3b5" fill-opacity=".2"/><circle cx="10" cy="-10" r="2" fill="#a7f3b5"/></g></g>
+  <text x="889" y="173" style="font-size:20px;font-weight:700">AI Integration</text>
+  <text x="825" y="222" class="" style="font-size:16.5px;fill:#a9b8ad" xml:space="preserve"><tspan>LLMs, RAG, computer vision and ML —</tspan></text>
+<text x="825" y="245" class="" style="font-size:16.5px;fill:#a9b8ad" xml:space="preserve"><tspan>shipped inside real products.</tspan></text>
+</g>
+<g class="rise" style="animation-delay:0.34s">
+  <rect x="43" y="303" width="356" height="162" rx="16" fill="#111512" stroke="#1f2a22"/>
+  <g class="glowbox" style="animation-delay:2.1s">
+<rect x="67" y="327" width="48" height="48" rx="13" fill="#3aaf4b" fill-opacity=".1" stroke="#3aaf4b" stroke-opacity=".35"/>
+<g transform="translate(91 351)" fill="none" stroke="#a7f3b5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M0 -12 L13 -5 L0 2 L-13 -5Z" fill="#a7f3b5" fill-opacity=".2"/><path d="M-13 1 L0 8 L13 1 M-13 6 L0 13 L13 6"/></g></g>
+  <text x="131" y="358" style="font-size:20px;font-weight:700">UI/UX Design</text>
+  <text x="67" y="407" class="" style="font-size:16.5px;fill:#a9b8ad" xml:space="preserve"><tspan>Intuitive, motion-rich interfaces</tspan></text>
+<text x="67" y="430" class="" style="font-size:16.5px;fill:#a9b8ad" xml:space="preserve"><tspan>designed in Figma, built for people.</tspan></text>
+</g>
+<g class="rise" style="animation-delay:0.42s">
+  <rect x="422" y="303" width="356" height="162" rx="16" fill="#111512" stroke="#1f2a22"/>
+  <g class="glowbox" style="animation-delay:2.8s">
+<rect x="446" y="327" width="48" height="48" rx="13" fill="#3aaf4b" fill-opacity=".1" stroke="#3aaf4b" stroke-opacity=".35"/>
+<g transform="translate(470 351)" fill="none" stroke="#a7f3b5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 -13 L-8 2 H0 L-3 13 L8 -2 H0 Z" fill="#a7f3b5" fill-opacity=".2"/></g></g>
+  <text x="510" y="358" style="font-size:20px;font-weight:700">Workflow Automation</text>
+  <text x="446" y="407" class="" style="font-size:16.5px;fill:#a9b8ad" xml:space="preserve"><tspan>Scripts, bots and pipelines that</tspan></text>
+<text x="446" y="430" class="" style="font-size:16.5px;fill:#a9b8ad" xml:space="preserve"><tspan>remove repetitive work.</tspan></text>
+</g>
+<g class="rise" style="animation-delay:0.50s">
+  <rect x="801" y="303" width="356" height="162" rx="16" fill="#111512" stroke="#1f2a22"/>
+  <g class="glowbox" style="animation-delay:3.5s">
+<rect x="825" y="327" width="48" height="48" rx="13" fill="#3aaf4b" fill-opacity=".1" stroke="#3aaf4b" stroke-opacity=".35"/>
+<g transform="translate(849 351)" fill="none" stroke="#a7f3b5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="-5" cy="-5" r="5"/><path d="M-14 11 C-14 4 4 4 4 11"/><circle cx="8" cy="-3" r="3.6"/><path d="M6 5 C11 4 15 6 15 11"/></g></g>
+  <text x="889" y="358" style="font-size:20px;font-weight:700">Technical Leadership</text>
+  <text x="825" y="407" class="" style="font-size:16.5px;fill:#a9b8ad" xml:space="preserve"><tspan>Leading teams, reviewing architecture</tspan></text>
+<text x="825" y="430" class="" style="font-size:16.5px;fill:#a9b8ad" xml:space="preserve"><tspan>and mentoring developers.</tspan></text>
+</g>
+<g clip-path="url(#tiles)"><rect class="sheen" x="-200" y="118" width="120" height="347" fill="url(#shine)"/></g>
+</g>
+<rect x="0.75" y=".75" width="1198.5" height="503.5" rx="21.25" fill="none" stroke="#1f2a22" stroke-width="1.5"/>
+<rect class="runner" x="0.75" y=".75" width="1198.5" height="503.5" rx="21.25" pathLength="1000" style="animation-delay:-1.7s"/>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="250" viewBox="0 0 600 250" role="img" aria-label="Alex — AI Interview Assistant — Real-time interview practice: posture detection from your webcam, voice analysis for tone, pace and filler words, plus AI feedback.">
+<title>Alex — AI Interview Assistant — Real-time interview practice: posture detection from your webcam, voice analysis for tone, pace and filler words, plus AI feedback.</title>
+<defs>
+  <radialGradient id="glow" cx="0.95" cy="0.05" r=".75"><stop offset="0" stop-color="#3aaf4b" stop-opacity=".16"/><stop offset="1" stop-color="#3aaf4b" stop-opacity="0"/></radialGradient>
+  <linearGradient id="runGrad" x1="0" x2="1"><stop offset="0" stop-color="#3aaf4b" stop-opacity="0"/><stop offset=".6" stop-color="#3aaf4b"/><stop offset="1" stop-color="#a7f3b5"/></linearGradient>
+  <clipPath id="frame"><rect x="12" width="588" height="250" rx="22"/></clipPath>
+</defs>
+<style>
+text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;fill:#e8efe9}
+.mono{font-family:ui-monospace, SFMono-Regular, 'Cascadia Code', 'SF Mono', Consolas, Menlo, monospace}
+.rise{animation:rise .9s cubic-bezier(.2,.8,.2,1) both}
+@keyframes rise{from{transform:translateY(14px);opacity:0}to{transform:translateY(0px);opacity:1}}
+.runner{fill:none;stroke:url(#runGrad);stroke-width:2;stroke-linecap:round;stroke-dasharray:90 910;animation:run 8s linear infinite}
+@keyframes run{from{stroke-dashoffset:0}to{stroke-dashoffset:-1000}}
+.mark{transform-box:fill-box;transform-origin:center;animation:mark 4s ease-in-out infinite}
+@keyframes mark{0%,100%{transform:rotate(45deg)}50%{transform:rotate(225deg)}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-out infinite}
+@keyframes pulse{0%{transform:scale(1);opacity:.8}100%{transform:scale(2.6);opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.dot{animation:dot 1.2s ease-in-out infinite}
+@keyframes dot{0%,60%,100%{opacity:.25}30%{opacity:1}}
+.eyes{animation:eyes 4s ease-in-out infinite}
+@keyframes eyes{0%,100%{transform:translateX(0px)}25%{transform:translateX(-1.6px)}50%{transform:translateX(1.6px)}75%{transform:translate(0px,1.2px)}}</style>
+<g clip-path="url(#frame)">
+  <rect x="12" width="588" height="250" fill="#0B0B0A"/>
+  <rect x="12" width="588" height="250" fill="url(#glow)"/>
+  
+<rect x="40" y="28" width="52" height="52" rx="13" fill="#3aaf4b" fill-opacity=".1" stroke="#3aaf4b" stroke-opacity=".35"/>
+<g transform="translate(66 54)" fill="none" stroke="#a7f3b5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-12 -11 H12 A3 3 0 0 1 15 -8 V5 A3 3 0 0 1 12 8 H-3 L-9 13 V8 H-12 A3 3 0 0 1 -15 5 V-8 A3 3 0 0 1 -12 -11 Z"/><circle class="dot" cx="-6" cy="-2" r="1.8" fill="#a7f3b5"/><circle class="dot" cx="0" cy="-2" r="1.8" fill="#a7f3b5" style="animation-delay:.2s"/><circle class="dot" cx="6" cy="-2" r="1.8" fill="#a7f3b5" style="animation-delay:.4s"/></g>
+<text x="108" y="50" style="font-size:22px;font-weight:700">Alex — AI Interview Assistant</text>
+<text x="108" y="75" class="mono" style="font-size:13.5px;fill:#3aaf4b">Python · YOLOv8 · Gemini</text>
+<text x="40" y="124" class="" style="font-size:16.5px;fill:#a9b8ad" xml:space="preserve"><tspan>Real-time interview practice: posture detection from your</tspan></text>
+<text x="40" y="149" class="" style="font-size:16.5px;fill:#a9b8ad" xml:space="preserve"><tspan>webcam, voice analysis for tone, pace and filler words, plus AI</tspan></text>
+<text x="40" y="174" class="" style="font-size:16.5px;fill:#a9b8ad" xml:space="preserve"><tspan>feedback.</tspan></text>
+<path d="M40 198.5 H572" stroke="#1f2a22"/>
+<text x="40" y="228" class="mono" style="font-size:13.5px;fill:#a7f3b5">&lt;/&gt; open source</text>
+<text x="572" y="228" text-anchor="end" class="mono" style="font-size:13.5px;fill:#8a9a8e">view repo →</text>
+</g>
+<rect x="12.75" y=".75" width="586.5" height="248.5" rx="21.25" fill="none" stroke="#1f2a22" stroke-width="1.5"/>
+<rect class="runner" x="12.75" y=".75" width="586.5" height="248.5" rx="21.25" pathLength="1000" style="animation-delay:-2.2s"/>
+</svg>
