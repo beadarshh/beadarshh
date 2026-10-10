@@ -25,7 +25,7 @@ text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Hel
 <rect class="mark" x="45" y="80" width="9" height="9" rx="2" fill="#3aaf4b"/>
 <text x="65" y="91" class="mono" style="font-size:15px;fill:#8a9a8e">// who I am &amp; what drives me</text>
 <text x="43" y="150" class="rise" style="font-size:19.5px;fill:#a9b8ad;animation-delay:0.1s" xml:space="preserve"><tspan>I'm a</tspan><tspan style="fill:#e8efe9;font-weight:700"> Software Engineer</tspan><tspan> and</tspan><tspan style="fill:#e8efe9;font-weight:700"> AI &amp; full-stack</tspan></text>
-<text x="43" y="181" class="rise" style="font-size:19.5px;fill:#a9b8ad;animation-delay:0.1s" xml:space="preserve"><tspan style="fill:#e8efe9;font-weight:700">developer</tspan><tspan>, currently a</tspan><tspan style="fill:#e8efe9;font-weight:700"> Software Fellow at Drone</tspan></text>
+<text x="43" y="181" class="rise" style="font-size:19.5px;fill:#a9b8ad;animation-delay:0.1s" xml:space="preserve"><tspan style="fill:#e8efe9;font-weight:700">developer</tspan><tspan>, currently a</tspan><tspan style="fill:#e8efe9;font-weight:700"> Software Developer at Drone</tspan></text>
 <text x="43" y="212" class="rise" style="font-size:19.5px;fill:#a9b8ad;animation-delay:0.1s" xml:space="preserve"><tspan style="fill:#e8efe9;font-weight:700">Federation India</tspan><tspan> — building the digital infrastructure</tspan></text>
 <text x="43" y="243" class="rise" style="font-size:19.5px;fill:#a9b8ad;animation-delay:0.1s" xml:space="preserve"><tspan>behind India's drone ecosystem.</tspan></text>
 <text x="43" y="290" class="rise" style="font-size:19.5px;fill:#a9b8ad;animation-delay:0.25s" xml:space="preserve"><tspan>I work across the whole stack: designing APIs,</tspan></text>
@@ -57,7 +57,7 @@ text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Hel
 <g class="rise" style="animation-delay:0.39s">
   <text x="672" y="220" class="mono" style="font-size:13px;fill:#56645a"> 2</text>
   <text x="706" y="220" class="mono" style="font-size:15px" xml:space="preserve"><tspan style="fill:#3aaf4b">role</tspan><tspan style="fill:#8a9a8e">:</tspan></text>
-  <text x="816" y="220" class="mono" style="font-size:15px"><tspan style="fill:#a7f3b5">&quot;Software Fellow&quot;</tspan></text></g>
+  <text x="816" y="220" class="mono" style="font-size:15px"><tspan style="fill:#a7f3b5">&quot;Software Developer&quot;</tspan></text></g>
 <g class="rise" style="animation-delay:0.48s">
   <text x="672" y="248" class="mono" style="font-size:13px;fill:#56645a"> 3</text>
   <text x="706" y="248" class="mono" style="font-size:15px" xml:space="preserve"><tspan style="fill:#3aaf4b">at</tspan><tspan style="fill:#8a9a8e">:</tspan></text>
