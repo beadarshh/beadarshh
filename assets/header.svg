@@ -119,7 +119,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helveti
     </g>
   </g>
   <g class="rise" style="animation-delay:.45s">
-    <text x="72" y="312" font-size="15" fill="#8a9a8e">Software Fellow @ <tspan fill="#cfe9d4" font-weight="600">Drone Federation India</tspan>  ·  Delhi, India</text>
+    <text x="72" y="312" font-size="15" fill="#8a9a8e">Software Developer @ <tspan fill="#cfe9d4" font-weight="600">Drone Federation India</tspan>  ·  Delhi, India</text>
   </g>
 
   <!-- website + email pills -->
