@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="274" viewBox="0 0 900 274" role="img" aria-label="beadarshh's GitHub stats and most used languages">
+<title>beadarshh's GitHub stats and most used languages</title>
+<style>
+text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;fill:#e8efe9}
+.mono{font-family:ui-monospace, SFMono-Regular, 'Cascadia Code', 'SF Mono', Consolas, Menlo, monospace}
+.muted{fill:#8a9a8e}
+.faint{fill:#56645a}
+.accent{fill:#3aaf4b}
+.h{font-size:18px;font-weight:700}
+.live{transform-box:fill-box;transform-origin:center;animation:live 2s ease-out infinite}
+@keyframes live{0%{transform:scale(1);opacity:.9}100%{transform:scale(3.2);opacity:0}}
+
+.tile{animation:rise .8s cubic-bezier(.2,.8,.2,1) both}
+@keyframes rise{from{transform:translateY(10px);opacity:0}to{transform:translateY(0px);opacity:1}}
+.seg{transform-box:fill-box;transform-origin:left center;animation:grow .9s cubic-bezier(.2,.8,.2,1) both}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.sheen{animation:sheen 4.5s ease-in-out 1.8s infinite both}
+@keyframes sheen{0%{transform:translateX(0px)}60%,100%{transform:translateX(488px)}}
+@media (prefers-reduced-motion:reduce){.tile,.seg,.sheen{animation:none}.sheen{display:none}}
+</style>
+<rect x=".5" y=".5" width="899" height="273" rx="16" fill="#0B0B0A" stroke="#1f2a22"/>
+<defs>
+  <clipPath id="barClip"><rect x="500" y="118" width="368" height="12" rx="6"/></clipPath>
+  <linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+</defs>
+<circle class="live" cx="37" cy="64" r="3.5" fill="#3aaf4b"/><circle cx="37" cy="64" r="3.5" fill="#3aaf4b"/>
+<text x="32" y="46" class="h">GitHub at a Glance</text>
+<text x="49" y="68" class="mono muted" style="font-size:11.5px">last 12 months · auto-updated by GitHub Actions</text>
+<text x="868" y="46" text-anchor="end" class="muted" style="font-size:12px">updated Oct 24, 2026</text>
+<g class="tile" style="animation-delay:0.15s">
+  <rect x="32" y="90" width="136" height="74" rx="12" fill="#111512" stroke="#1f2a22"/>
+  <rect x="32" y="108" width="3" height="38" rx="1.5" fill="#3aaf4b"/>
+  <text x="48" y="127" style="font-size:24px;font-weight:700">27</text>
+  <text x="48" y="147" class="muted" style="font-size:10px;letter-spacing:.6px;font-weight:600">PUBLIC REPOS</text>
+</g>
+<g class="tile" style="animation-delay:0.23s">
+  <rect x="180" y="90" width="136" height="74" rx="12" fill="#111512" stroke="#1f2a22"/>
+  <rect x="180" y="108" width="3" height="38" rx="1.5" fill="#3aaf4b"/>
+  <text x="196" y="127" style="font-size:24px;font-weight:700">18</text>
+  <text x="196" y="147" class="muted" style="font-size:10px;letter-spacing:.6px;font-weight:600">STARS EARNED</text>
+</g>
+<g class="tile" style="animation-delay:0.31s">
+  <rect x="328" y="90" width="136" height="74" rx="12" fill="#111512" stroke="#1f2a22"/>
+  <rect x="328" y="108" width="3" height="38" rx="1.5" fill="#3aaf4b"/>
+  <text x="344" y="127" style="font-size:24px;font-weight:700">2</text>
+  <text x="344" y="147" class="muted" style="font-size:10px;letter-spacing:.6px;font-weight:600">FOLLOWERS</text>
+</g>
+<g class="tile" style="animation-delay:0.39s">
+  <rect x="32" y="176" width="136" height="74" rx="12" fill="#111512" stroke="#1f2a22"/>
+  <rect x="32" y="194" width="3" height="38" rx="1.5" fill="#3aaf4b"/>
+  <text x="48" y="213" style="font-size:24px;font-weight:700">1,228</text>
+  <text x="48" y="233" class="muted" style="font-size:10px;letter-spacing:.6px;font-weight:600">CONTRIBUTIONS</text>
+</g>
+<g class="tile" style="animation-delay:0.47s">
+  <rect x="180" y="176" width="136" height="74" rx="12" fill="#111512" stroke="#1f2a22"/>
+  <rect x="180" y="194" width="3" height="38" rx="1.5" fill="#3aaf4b"/>
+  <text x="196" y="213" style="font-size:24px;font-weight:700">16</text>
+  <text x="196" y="233" class="muted" style="font-size:10px;letter-spacing:.6px;font-weight:600">BEST STREAK</text>
+</g>
+<g class="tile" style="animation-delay:0.55s">
+  <rect x="328" y="176" width="136" height="74" rx="12" fill="#111512" stroke="#1f2a22"/>
+  <rect x="328" y="194" width="3" height="38" rx="1.5" fill="#3aaf4b"/>
+  <text x="344" y="213" style="font-size:24px;font-weight:700">229</text>
+  <text x="344" y="233" class="muted" style="font-size:10px;letter-spacing:.6px;font-weight:600">ACTIVE DAYS</text>
+</g>
+<text x="500" y="104" class="muted" style="font-size:11px;letter-spacing:1.2px;font-weight:600">MOST USED LANGUAGES</text>
+<rect x="500" y="118" width="368" height="12" rx="6" fill="#161c18"/>
+<g clip-path="url(#barClip)"><rect class="seg" x="500" y="118" width="277.2" height="12" fill="#e34c26" style="animation-delay:0.50s"/><rect class="seg" x="776.7" y="118" width="41.1" height="12" fill="#f1e05a" style="animation-delay:0.62s"/><rect class="seg" x="817.4" y="118" width="35.8" height="12" fill="#3178c6" style="animation-delay:0.74s"/><rect class="seg" x="852.7" y="118" width="6.6" height="12" fill="#663399" style="animation-delay:0.86s"/><rect class="seg" x="858.8" y="118" width="6.4" height="12" fill="#4F5D95" style="animation-delay:0.98s"/><rect class="seg" x="864.6" y="118" width="3.7" height="12" fill="#3572A5" style="animation-delay:1.10s"/><rect class="seg" x="867.9" y="118" width="0.6" height="12" fill="#56645a" style="animation-delay:1.22s"/><rect class="sheen" x="380" y="118" width="80" height="12" fill="url(#shine)"/></g>
+<g class="tile" style="animation-delay:0.70s">
+  <circle cx="505" cy="162" r="5" fill="#e34c26"/>
+  <text x="518" y="166" style="font-size:13px;font-weight:600">HTML</text>
+  <text x="668" y="166" text-anchor="end" class="mono muted" style="font-size:12px">75.2%</text>
+</g>
+<g class="tile" style="animation-delay:0.78s">
+  <circle cx="697" cy="162" r="5" fill="#f1e05a"/>
+  <text x="710" y="166" style="font-size:13px;font-weight:600">JavaScript</text>
+  <text x="860" y="166" text-anchor="end" class="mono muted" style="font-size:12px">11.0%</text>
+</g>
+<g class="tile" style="animation-delay:0.86s">
+  <circle cx="505" cy="192" r="5" fill="#3178c6"/>
+  <text x="518" y="196" style="font-size:13px;font-weight:600">TypeScript</text>
+  <text x="668" y="196" text-anchor="end" class="mono muted" style="font-size:12px">9.6%</text>
+</g>
+<g class="tile" style="animation-delay:0.94s">
+  <circle cx="697" cy="192" r="5" fill="#663399"/>
+  <text x="710" y="196" style="font-size:13px;font-weight:600">CSS</text>
+  <text x="860" y="196" text-anchor="end" class="mono muted" style="font-size:12px">1.7%</text>
+</g>
+<g class="tile" style="animation-delay:1.02s">
+  <circle cx="505" cy="222" r="5" fill="#4F5D95"/>
+  <text x="518" y="226" style="font-size:13px;font-weight:600">PHP</text>
+  <text x="668" y="226" text-anchor="end" class="mono muted" style="font-size:12px">1.6%</text>
+</g>
+<g class="tile" style="animation-delay:1.10s">
+  <circle cx="697" cy="222" r="5" fill="#3572A5"/>
+  <text x="710" y="226" style="font-size:13px;font-weight:600">Python</text>
+  <text x="860" y="226" text-anchor="end" class="mono muted" style="font-size:12px">0.9%</text>
+</g>
+</svg>
