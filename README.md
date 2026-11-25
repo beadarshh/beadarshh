@@ -9,7 +9,7 @@
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
-<img src="https://raw.githubusercontent.com/beadarshh/beadarshh/output/contrib-dark.svg" width="100%" alt="Adarsh's GitHub contribution graph, assembling itself particle by particle"/>
+<img src="https://raw.githubusercontent.com/beadarshh/beadarshh/output/contrib-dark.svg?v=2" width="100%" alt="Adarsh's GitHub contribution graph, assembling itself particle by particle"/>
 
 <img src="./assets/about.svg" width="100%" alt="About me — I'm a Software Engineer and AI & full-stack developer, currently a Software Developer at Drone Federation India, building the digital infrastructure behind India's drone ecosystem. B.Tech CSE (CGPA 9.05), based in Delhi, India."/>
 
@@ -29,7 +29,7 @@
 
 <img src="./assets/stack.svg" width="100%" alt="Tech stack — React, Next.js, Vue, TypeScript, JavaScript, Tailwind CSS, HTML5, CSS3, Figma, Node.js, Python, Java, Spring Boot, Django, Supabase, PostgreSQL, MongoDB, TensorFlow, Gemini API, LLMs & RAG, Computer Vision, Docker, Git, GitHub Actions, Selenium, Vercel"/>
 
-<img src="https://raw.githubusercontent.com/beadarshh/beadarshh/output/stats-dark.svg" width="100%" alt="Adarsh's GitHub stats and most used languages"/>
+<img src="https://raw.githubusercontent.com/beadarshh/beadarshh/output/stats-dark.svg?v=2" width="100%" alt="Adarsh's GitHub stats and most used languages"/>
 
 <a href="mailto:connect@beadarsh.in"><img src="./assets/title-connect.svg" width="100%" alt="Let's connect — connect@beadarsh.in"/></a>
 
