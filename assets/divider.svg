@@ -2,16 +2,16 @@
 <title>divider</title>
 <defs>
   <linearGradient id="base" x1="0" x2="1">
-    <stop offset="0" stop-color="#3aaf4b" stop-opacity="0"/><stop offset=".5" stop-color="#3aaf4b" stop-opacity=".45"/><stop offset="1" stop-color="#3aaf4b" stop-opacity="0"/>
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".22"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
   </linearGradient>
   <linearGradient id="tail" x1="0" x2="1">
-    <stop offset="0" stop-color="#3aaf4b" stop-opacity="0"/><stop offset=".85" stop-color="#5fd36f"/><stop offset="1" stop-color="#d7fbe0"/>
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".85" stop-color="#8A8A8A"/><stop offset="1" stop-color="#E5E5E5"/>
   </linearGradient>
   <linearGradient id="tailTeal" x1="1" x2="0">
-    <stop offset="0" stop-color="#2dd4bf" stop-opacity="0"/><stop offset=".85" stop-color="#2dd4bf"/><stop offset="1" stop-color="#ccfbf1"/>
+    <stop offset="0" stop-color="#BDBDBD" stop-opacity="0"/><stop offset=".85" stop-color="#BDBDBD"/><stop offset="1" stop-color="#E5E5E5"/>
   </linearGradient>
-  <radialGradient id="head"><stop offset="0" stop-color="#ffffff"/><stop offset=".35" stop-color="#a7f3b5" stop-opacity=".8"/><stop offset="1" stop-color="#3aaf4b" stop-opacity="0"/></radialGradient>
-  <radialGradient id="headTeal"><stop offset="0" stop-color="#ffffff"/><stop offset=".35" stop-color="#5eead4" stop-opacity=".8"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></radialGradient>
+  <radialGradient id="head"><stop offset="0" stop-color="#ffffff"/><stop offset=".35" stop-color="#E5E5E5" stop-opacity=".8"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+  <radialGradient id="headTeal"><stop offset="0" stop-color="#ffffff"/><stop offset=".35" stop-color="#BDBDBD" stop-opacity=".8"/><stop offset="1" stop-color="#BDBDBD" stop-opacity="0"/></radialGradient>
 </defs>
 <style>
 .comet{animation:fly 4.2s cubic-bezier(.45,0,.55,1) infinite}
@@ -25,6 +25,6 @@
 <rect x="0" y="13.5" width="1200" height="1" fill="url(#base)"/>
 <g class="comet"><rect x="-240" y="13" width="240" height="2" rx="1" fill="url(#tail)"/><circle cx="0" cy="14" r="9" fill="url(#head)"/></g>
 <g class="comet2" opacity=".7"><rect x="0" y="13.25" width="160" height="1.5" rx=".75" fill="url(#tailTeal)"/><circle cx="0" cy="14" r="6" fill="url(#headTeal)"/></g>
-<rect class="gem" x="594" y="8" width="12" height="12" rx="2" fill="#0B0B0A" stroke="#3aaf4b" stroke-width="1.5"/>
-<circle cx="580" cy="14" r="1.5" fill="#3aaf4b"/><circle cx="620" cy="14" r="1.5" fill="#3aaf4b"/>
+<rect class="gem" x="594" y="8" width="12" height="12" rx="2" fill="#0A0A0A" stroke="#FFFFFF" stroke-width="1.5"/>
+<circle cx="580" cy="14" r="1.5" fill="#FFFFFF"/><circle cx="620" cy="14" r="1.5" fill="#FFFFFF"/>
 </svg>

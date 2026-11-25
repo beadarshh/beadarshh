@@ -25,17 +25,19 @@ const FONT = "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvet
 const MONO = "ui-monospace, SFMono-Regular, 'Cascadia Code', 'SF Mono', Consolas, Menlo, monospace";
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
-// Palette follows beadarsh.in: ink #0B0B0A + brand green #3aaf4b.
+// Strict black + white. Contribution levels are a grey ramp; language bars use a grey ramp by rank.
 const THEMES = {
   dark: {
-    bg: '#0B0B0A', tile: '#111512', border: '#1f2a22', text: '#e8efe9', muted: '#8a9a8e', faint: '#56645a',
-    accent: '#3aaf4b', levels: ['#161c18', '#0f3d1c', '#1b6e2d', '#3aaf4b', '#86e894'],
-    hot: '#c9ffd3', flash: '#ffffff', hotEmpty: '#4d6a55', dust: '#7ee08a', scan: '#a7f3b5', glow: true,
+    bg: '#0A0A0A', tile: '#111111', border: '#262626', text: '#FAFAFA', muted: '#8A8A8A', faint: '#5C5C5C',
+    accent: '#FFFFFF', levels: ['#171717', '#303030', '#5E5E5E', '#A3A3A3', '#FFFFFF'],
+    hot: '#E5E5E5', flash: '#FFFFFF', hotEmpty: '#3A3A3A', dust: '#BDBDBD', scan: '#FFFFFF', glow: true,
+    ramp: ['#FFFFFF', '#D4D4D4', '#A3A3A3', '#7A7A7A', '#575757', '#3D3D3D', '#2A2A2A'],
   },
   light: {
-    bg: '#ffffff', tile: '#f6f8f7', border: '#d0d7de', text: '#1f2328', muted: '#59636e', faint: '#8c959f',
-    accent: '#2f9a40', levels: ['#ebedf0', '#b4e3bd', '#6cc77c', '#3aaf4b', '#1f7a2e'],
-    hot: '#3aaf4b', flash: '#0f5c1f', hotEmpty: '#c3cbc5', dust: '#3aaf4b', scan: '#3aaf4b', glow: false,
+    bg: '#FFFFFF', tile: '#FAFAFA', border: '#E5E5E5', text: '#0A0A0A', muted: '#6B6B6B', faint: '#9A9A9A',
+    accent: '#0A0A0A', levels: ['#EEEEEE', '#CFCFCF', '#9A9A9A', '#4D4D4D', '#0A0A0A'],
+    hot: '#4D4D4D', flash: '#0A0A0A', hotEmpty: '#D4D4D4', dust: '#6B6B6B', scan: '#0A0A0A', glow: false,
+    ramp: ['#0A0A0A', '#2E2E2E', '#575757', '#808080', '#A8A8A8', '#C8C8C8', '#DEDEDE'],
   },
 };
 
@@ -304,9 +306,9 @@ ${t.levels.slice(1).map((c, i) => `.l${i + 1}{--c:${c};--h:${t.hot};--f:${t.flas
 @media (prefers-reduced-motion:reduce){.p,.scan,.dust,.stat{animation:none}.scan,.dust{display:none}}`;
 
   const body = `<defs>
-  <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${t.scan}" stop-opacity="0"/><stop offset=".5" stop-color="${t.scan}"/><stop offset="1" stop-color="${t.scan}" stop-opacity="0"/></linearGradient>
-  <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="${t.scan}" stop-opacity="0"/><stop offset="1" stop-color="${t.scan}" stop-opacity=".22"/></linearGradient>
-  ${t.glow ? '<filter id="glow" x="-20%" y="-30%" width="140%" height="160%"><feGaussianBlur stdDeviation="1.8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>' : ''}
+  <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${t.scan}" stop-opacity="0"/><stop offset=".5" stop-color="${t.scan}" stop-opacity=".7"/><stop offset="1" stop-color="${t.scan}" stop-opacity="0"/></linearGradient>
+  <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="${t.scan}" stop-opacity="0"/><stop offset="1" stop-color="${t.scan}" stop-opacity=".1"/></linearGradient>
+  ${t.glow ? '<filter id="glow" x="-20%" y="-30%" width="140%" height="160%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>' : ''}
 </defs>
 <g>${dust}</g>
 ${liveDot(37, 64, t)}
@@ -361,7 +363,7 @@ function statsSvg(d, t) {
   const total = d.languages.reduce((n, l) => n + l.size, 0) || 1;
   const top = d.languages.slice(0, 6);
   const rest = d.languages.slice(6).reduce((n, l) => n + l.size, 0);
-  const segs = [...top, ...(rest ? [{ name: 'Other', color: t.faint, size: rest }] : [])];
+  const segs = [...top, ...(rest ? [{ name: 'Other', size: rest }] : [])].map((l, i) => ({ ...l, color: t.ramp[Math.min(i, t.ramp.length - 1)] }));
   let cursor = PX;
   const bar = segs.map((l, i) => {
     const w = (l.size / total) * PW;
@@ -373,7 +375,7 @@ function statsSvg(d, t) {
     const x = PX + (i % 2) * (PW / 2 + 8), y = 166 + Math.floor(i / 2) * 30;
     const pct = (l.size / total) * 100;
     return `<g class="tile" style="animation-delay:${(0.7 + i * 0.08).toFixed(2)}s">
-  <circle cx="${x + 5}" cy="${y - 4}" r="5" fill="${l.color ?? t.accent}"/>
+  <circle cx="${x + 5}" cy="${y - 4}" r="5" fill="${t.ramp[i]}"/>
   <text x="${x + 18}" y="${y}" style="font-size:13px;font-weight:600">${esc(l.name)}</text>
   <text x="${x + PW / 2 - 16}" y="${y}" text-anchor="end" class="mono muted" style="font-size:12px">${pct < 0.1 ? '&lt;0.1' : pct.toFixed(1)}%</text>
 </g>`;
