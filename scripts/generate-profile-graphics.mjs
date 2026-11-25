@@ -25,18 +25,18 @@ const FONT = "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvet
 const MONO = "ui-monospace, SFMono-Regular, 'Cascadia Code', 'SF Mono', Consolas, Menlo, monospace";
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
-// Strict black + white. Contribution levels are a grey ramp; language bars use a grey ramp by rank.
+// Strict black + white, except the contribution graph, which uses GitHub's own green ramp; language bars use a grey ramp by rank.
 const THEMES = {
   dark: {
     bg: '#0A0A0A', tile: '#111111', border: '#262626', text: '#FAFAFA', muted: '#8A8A8A', faint: '#5C5C5C',
-    accent: '#FFFFFF', levels: ['#171717', '#303030', '#5E5E5E', '#A3A3A3', '#FFFFFF'],
-    hot: '#E5E5E5', flash: '#FFFFFF', hotEmpty: '#3A3A3A', dust: '#BDBDBD', scan: '#FFFFFF', glow: true,
+    accent: '#FFFFFF', levels: ['#161B22', '#0E4429', '#006D32', '#26A641', '#39D353'],
+    hot: '#7EE787', flash: '#AFF5B4', hotEmpty: '#30363D', dust: '#39D353', scan: '#39D353', glow: true,
     ramp: ['#FFFFFF', '#D4D4D4', '#A3A3A3', '#7A7A7A', '#575757', '#3D3D3D', '#2A2A2A'],
   },
   light: {
     bg: '#FFFFFF', tile: '#FAFAFA', border: '#E5E5E5', text: '#0A0A0A', muted: '#6B6B6B', faint: '#9A9A9A',
-    accent: '#0A0A0A', levels: ['#EEEEEE', '#CFCFCF', '#9A9A9A', '#4D4D4D', '#0A0A0A'],
-    hot: '#4D4D4D', flash: '#0A0A0A', hotEmpty: '#D4D4D4', dust: '#6B6B6B', scan: '#0A0A0A', glow: false,
+    accent: '#0A0A0A', levels: ['#EBEDF0', '#9BE9A8', '#40C463', '#30A14E', '#216E39'],
+    hot: '#30A14E', flash: '#216E39', hotEmpty: '#D0D7DE', dust: '#40C463', scan: '#30A14E', glow: false,
     ramp: ['#0A0A0A', '#2E2E2E', '#575757', '#808080', '#A8A8A8', '#C8C8C8', '#DEDEDE'],
   },
 };
